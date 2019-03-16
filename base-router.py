@@ -10,7 +10,7 @@ from ryu.lib.packet import in_proto as inet
 from ryu.lib import dpid as dpid_lib
 import pytricia
 
-# Router data file (as router is static)
+# Router data file (all routes are static and pre-loaded)
 router_data_filepath = "/home/soutzis/PycharmProjects/SCC365-SDN_Router/router-data.json"
 
 # Ryu doesn't include a "network unreachable icmp code", so it is declared here, simply for semantic clarification

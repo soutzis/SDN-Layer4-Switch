@@ -42,7 +42,7 @@ class RouterTopo(Topo):
         self.addLink(h3, s2)
         self.addLink(h4, s2)
 
-        # Add links from switch1 to router1, from router1 to router2, and from router2 to switch2
+        # Add links from switch1 to router1, from router1 to router2 and from router2 to switch2
         self.addLink(s1, r1)
         self.addLink(s2, r2)
         self.addLink(r1, r2)
